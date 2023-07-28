@@ -27,7 +27,7 @@ body {
 }
 
 .logo-second-word {
-    color: var(--secondary-text-color);
+    color: #f4f4fd;
 }
 
 .link {
@@ -103,7 +103,7 @@ body {
 
 .main-cta:hover,
 .main-cta:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .main-cta:active {
