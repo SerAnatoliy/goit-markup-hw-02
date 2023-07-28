@@ -65,7 +65,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var (--main-text-color);
+    color: var(--main-text-color);
 }
 
 .contact-info:hover,
@@ -91,6 +91,7 @@ body {
 }
 
 .main-cta {
+    color: #ffffff;
     background: var(--cta-main-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -102,7 +103,7 @@ body {
 
 .main-cta:hover,
 .main-cta:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .main-cta:active {
@@ -121,16 +122,28 @@ body {
 
 .category-title {
     color: var(--secondary-text-color);
-
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .filter-button {
     border: 1px solid #E7E9FC;
-    background: #F4F4FD;
+    background-color: var(--footer-main-text);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--cta-main-color);
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: #FFFFFF;
+    background-color: #404bbf;
 }
 
 .filter-button:active {
@@ -141,7 +154,7 @@ body {
     background-color: #F4F4FD;
 }
 
-.first-member-team {
+.member-team {
     background-color: #ffffff;
 }
 
@@ -150,7 +163,7 @@ body {
 }
 
 .footer>.logo-second-word {
-    color: var(--footer-main-text);
+    color: #f4f4fd;
 }
 
 .footer>.main-text {
