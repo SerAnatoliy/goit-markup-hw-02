@@ -27,7 +27,7 @@ body {
 }
 
 .logo-second-word {
-    color: #f4f4fd;
+    color: var(--secondary-text-color);
 }
 
 .link {
